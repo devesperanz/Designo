@@ -25,6 +25,7 @@ hr {
   align-items: center;
   flex-basis: 45rem;
   color: grey;
+  opacity: 0;
 }
 .footer-content span {
   display: block;
