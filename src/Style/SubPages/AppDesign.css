@@ -1,0 +1,16 @@
+.design-bg-3 {
+  background-image: url('../../Assets/Subpages/image-web-design-small.jpg');
+  border-radius: 2rem;
+  box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: box-shadow 0.3s ease-in-out;
+  color: #fff;
+  height: 18rem;
+}
+@media (max-width: 990px) {
+  .design-bg-3 {
+    margin-bottom: 50px;
+  }
+}

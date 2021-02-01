@@ -1,0 +1,326 @@
+.about-hero-content {
+  background: #e7816b;
+  background-image: url(../../Assets/bg-pattern-hero-home.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+  flex-basis: 24rem;
+  color: #fff;
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  /* height: 30rem;
+  justify-content: center; */
+}
+.row {
+  margin: 0 auto;
+}
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+.about-hero-content-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+}
+.about-hero-content-body h1 {
+  font-size: 2.6rem;
+  line-height: 4.8rem;
+  font-weight: 500;
+}
+.about-hero-content-body p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.about-hero,
+.about-main,
+.about-deal {
+  height: 100%;
+}
+.about-hero-picture img {
+  width: 100%;
+  height: 100%;
+  -webkit-border-top-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -moz-border-radius-bottomright: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.about-hero-picture {
+  flex-basis: 16rem;
+}
+
+/* SECTION 2 */
+.about-main-picture img {
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.about-main-content {
+  background: #fdf3f0;
+  background-image: url(../../Assets/Company/bg-pattern-three-circles.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -18rem bottom;
+  flex-basis: 24rem;
+  /* color: #fff; */
+  -webkit-border-top-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -moz-border-radius-bottomright: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.about-main-content-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 30rem;
+  height: 38rem;
+  margin: 0 auto;
+}
+.about-main-content-body h1 {
+  color: #e7816b;
+  font-size: 2.6rem;
+  line-height: 4.8rem;
+  font-weight: 500;
+}
+.about-main-content-body p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #1d1c1e;
+}
+.about-deal,
+.about-main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about-hero {
+  margin-top: 50px;
+}
+
+.about-deal-content {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-image: url(../../Assets/Company/bg-pattern-two-circles.svg);
+  background-color: #fdf3f0;
+  flex-basis: 24rem;
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.about-deal-content-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 30rem;
+  height: 40rem;
+  margin: 0 auto;
+}
+.about-deal-content-body h1 {
+  color: #e7816b;
+  font-size: 2.6rem;
+  line-height: 4.8rem;
+  font-weight: 500;
+}
+.about-deal-content-body p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.about-deal-picture {
+  flex-basis: 16rem;
+}
+.about-deal-picture img {
+  width: 100%;
+  height: 100%;
+  -webkit-border-top-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -moz-border-radius-bottomright: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+@media (max-width: 990px) {
+  .about-hero,
+  .about-deal {
+    flex-direction: column-reverse;
+  }
+  .about-hero-picture {
+    flex: none;
+    width: 100%;
+    height: 23rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../Assets/Company/image-about-hero-tablet.jpg);
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+  }
+  .about-hero-picture img,
+  .about-main-picture img,
+  .about-deal-picture img {
+    display: none;
+    opacity: 0;
+  }
+  .about-hero-content,
+  .about-deal-content {
+    flex-basis: 23rem;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -webkit-border-top-right-radius: 0;
+    border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-right-radius: 0px;
+  }
+  .about-hero-content-body,
+  .about-main-content-body,
+  .about-deal-content-body {
+    height: 26rem;
+    text-align: center;
+    max-width: 36rem;
+    align-items: center;
+  }
+  .about-main-picture {
+    flex: none;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../Assets/Company/image-world-class-talent-tablet.jpg);
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+  }
+  .about-main-content {
+    height: 30rem;
+    flex-basis: 23rem;
+    background-position: center;
+    background-size: contain;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-right-radius: 0px;
+  }
+  .about-main-content-body {
+    height: 30rem;
+  }
+
+  .about-hero-content-body p,
+  .about-main-content-body p,
+  .about-deal-content-body p {
+    font-size: 1.1rem;
+  }
+  .about-deal-picture {
+    flex: none;
+    width: 100%;
+    height: 23rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../Assets/Company/image-real-deal-tablet.jpg);
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+  }
+  .about-deal-content {
+    background-image: url(../../Assets/Company/bg-pattern-three-circles.svg);
+  }
+}
+/* @media (max-width: 564px) {
+  .about-hero .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+} */
+
+@media (max-width: 480px) {
+  .about-hero-picture,
+  .about-hero-content,
+  .about-main-content,
+  .about-main-picture,
+  .about-deal-picture,
+  .about-deal-content {
+    border-radius: 0;
+  }
+  .about-hero-picture {
+    background-image: url(../../Assets/Company/image-about-hero-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+  }
+  .about-main {
+    margin-top: 0;
+  }
+  .about-main-content {
+    background-image: url(../../Assets//Company/bg-pattern-three-circles-mobile.svg);
+    background-position: left 5rem;
+    background-size: cover;
+  }
+  .about-main-content-body p,
+  .about-hero-content-body p,
+  .about-deal-content-body p {
+    font-size: 13px;
+    line-height: 1.5rem;
+  }
+  .about-main-content-body h1,
+  .about-hero-content-body h1,
+  .about-deal-content-body h1 {
+    color: #e7816b;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .about-hero-content-body h1 {
+    color: #fff;
+  }
+  .about-main-content-body {
+    max-width: 26rem;
+  }
+  .about-deal-picture {
+    background-image: url(../../Assets/Company/image-real-deal-mobile.jpg);
+  }
+}

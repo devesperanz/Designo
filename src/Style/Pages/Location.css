@@ -1,0 +1,130 @@
+.location-row-detail {
+  flex-basis: 35rem;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  overflow: hidden;
+  background-image: url(../../Assets/Company/bg-pattern-two-circles.svg);
+  background-color: #fdf3f0;
+}
+.location-row-picture {
+  flex-basis: 15rem;
+  overflow: hidden;
+}
+.location-row-picture img {
+  min-height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.location-row-detail-body {
+  height: 20rem;
+  width: 44rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.location-detail-header {
+  color: #e7816b;
+}
+.location .col,
+.location-row-detail-body {
+  padding-left: 25px;
+}
+.location .col:nth-of-type(1) {
+  padding-left: 0px;
+  padding-right: 25px;
+}
+.location-row-detail-body-content {
+  width: 28rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-row-detail-body-content p {
+  margin-bottom: 0.3rem;
+}
+.location-row-detail-body-content h1 {
+  font-size: 18px;
+}
+.location-row {
+  flex-direction: row;
+  margin-top: 50px;
+}
+.location {
+  margin-bottom: 100px;
+}
+@media (max-width: 990px) {
+  .location-row {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+  }
+  .location-row-picture img {
+    display: none;
+  }
+  .location-row-picture {
+    background-image: url(../../Assets/Location/image-map-australia-tablet.png);
+    flex: none;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+  }
+  .location-row-detail,
+  .location-row-picture {
+    flex: none;
+    height: 20rem;
+    width: 66rem;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+  .location-row-detail-body {
+    width: 35rem;
+  }
+  .col {
+    padding-left: 0px;
+  }
+  /* .location-row-picture:nth-of-type(1) {
+    background-image: url(../../Assets/Location/image-map-australia-tablet.png);
+  } */
+  .location-row-detail {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .location-row-detail-body {
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+  }
+  .location-row-detail-body-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .location-row-detail-body-content div {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .location-row-picture,
+  .location-row-detail {
+    border-radius: 0;
+  }
+  .location-row-detail,
+  .location-row-picture {
+    margin-top: 0px;
+  }
+}

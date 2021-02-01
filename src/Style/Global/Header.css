@@ -1,0 +1,47 @@
+.header {
+  height: 80px;
+}
+.active,
+.active .navbar-collapse {
+  background: rgb(248, 248, 248);
+}
+.navbar img {
+  width: 236px;
+  max-width: 100%;
+  height: 30px;
+  max-height: 100%;
+}
+.nav-item {
+  margin-left: 60px;
+}
+.nav-link {
+  cursor: pointer;
+  color: gray;
+  font-weight: 500;
+}
+.selected {
+  color: #ec3a12;
+  text-decoration: none;
+}
+.selected:hover {
+  color: #ec3a12;
+}
+.nav-link:hover {
+  color: gray;
+}
+.nav-link:hover button:focus {
+  outline: 1px dotted;
+  outline: none;
+}
+/* @media (max-width: 768px) {
+ 
+} */
+@media (max-width: 480px) {
+  .navbar img {
+    width: 180px;
+    height: 25px;
+  }
+  .navbar-toggler-icon {
+    margin-top: 10px;
+  }
+}

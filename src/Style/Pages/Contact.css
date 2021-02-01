@@ -1,0 +1,134 @@
+.contact {
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 111.1rem;
+  height: 33rem;
+  border-radius: 1.5rem;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  background-image: url(../../Assets/bg-pattern-hero-home.svg);
+  background-color: #e7816b;
+  padding: 3.5rem 4rem;
+}
+.contact-form-body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.contact-form {
+  height: 100%;
+  width: 100%;
+}
+.contact-form-input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ffffff75;
+  background: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+.contact-form-input:focus {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 2px solid #ffffff75;
+  color: #fff;
+}
+.contact-form-submit {
+  align-self: flex-end;
+  background: #fff;
+  transition: box-shadow 0.5s ease-in-out;
+  width: 8rem;
+  height: 3.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-form-item {
+  width: 100%;
+  position: relative;
+}
+.contact-form-input::placeholder {
+  color: #ced4da;
+  font-size: 1.3rem;
+}
+.contact-content {
+  padding-right: 50px;
+  width: 30%;
+  color: #fff;
+}
+.contact-content h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.contact-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 400;
+  width: 90%;
+}
+
+@media (max-width: 990px) {
+  .contact {
+    flex-direction: column;
+    max-width: 68.9rem;
+    height: 50rem;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+    background-size: auto;
+    background-position: -15rem -10rem;
+  }
+  .contact-content {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .contact-content p {
+    width: 100%;
+  }
+  .contact-form {
+    height: 28rem;
+  }
+}
+@media (max-width: 564px) {
+  .contact {
+    padding: 3.5rem 3.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .contact-content {
+    text-align: center;
+  }
+  .contact-content p {
+    font-size: 16px;
+  }
+  .contact-content h2 {
+    font-size: 2rem;
+  }
+  .contact-form-input {
+    font-size: 1rem;
+  }
+  .contact {
+    border-radius: 0;
+    padding: 3rem 1rem;
+  }
+}
+@media (max-width: 399px) {
+  .contact-content p {
+    font-size: 15px;
+  }
+  .contact-content h2 {
+    font-size: 1.8rem;
+  }
+}
