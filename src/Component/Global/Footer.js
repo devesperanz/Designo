@@ -66,9 +66,7 @@ function Footer() {
             <div className='footer-content-right'>
               <div>
                 <span className='social'>
-                  <Link to='https://web.facebook.com/?_rdc=1&_rdr'>
-                    <img src={facebook} alt='social-facebook' />
-                  </Link>
+                  <img src={facebook} alt='social-facebook' />
                   <img src={youtube} alt='social-youtube' />
                   <img src={twitter} alt='social-twitter' />
                   <img src={pinterest} alt='social-pinterest' />
