@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import aboutHero from '../../Assets/Company/image-about-hero.jpg';
 import aboutMain from '../../Assets/Company/image-world-class-talent.jpg';
 import aboutDeal from '../../Assets/Company/image-real-deal.jpg';
 import Touch from '../Global/Touch';
 import Country from '../Global/Country';
 function Company() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <div className='about-hero container row'>

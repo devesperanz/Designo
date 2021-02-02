@@ -3,7 +3,6 @@ import logo from '../../Assets/logo-dark.png';
 import { NavLink, Link } from 'react-router-dom';
 function Header() {
   const [navbar, setNavbar] = useState(false);
-
   const changeBackground = () => {
     window.scrollY >= 80 ? setNavbar(true) : setNavbar(false);
   };
@@ -13,7 +12,7 @@ function Header() {
     <header
       className={navbar ? 'header active sticky-top' : 'header sticky-top'}
     >
-      <nav className='navbar navbar-expand-lg py-2 pb-3 pt-3'>
+      <nav className='navbar navbar-expand-lg py-2 pb-4 pt-4'>
         <div className='container'>
           <Link className='navbar-brand' to='/'>
             <img src={logo} alt='nav-logo' />

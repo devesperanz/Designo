@@ -2,6 +2,7 @@ import React from 'react';
 import canada from '../../Assets/Company/illustration-canada.svg';
 import australia from '../../Assets/Company/illustration-australia.svg';
 import unitedKingdom from '../../Assets/Company/illustration-united-kingdom.svg';
+import { Link } from 'react-router-dom';
 function Country() {
   return (
     <div className='container about-location row'>
@@ -12,7 +13,9 @@ function Country() {
           </div>
           <div className='about-location-content-description'>
             <h1>CANADA</h1>
-            <button className='btn'>SEE LOCATION</button>
+            <Link to='/location'>
+              <button className='btn'>SEE LOCATION</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -23,7 +26,9 @@ function Country() {
           </div>
           <div className='about-location-content-description'>
             <h1>AUSTRALIA</h1>
-            <button className='btn'>SEE LOCATION</button>
+            <Link to='/location'>
+              <button className='btn'>SEE LOCATION</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -34,7 +39,9 @@ function Country() {
           </div>
           <div className='about-location-content-description'>
             <h1>UNITED-KINGDOM</h1>
-            <button className='btn'>SEE LOCATION</button>
+            <Link to='/location'>
+              <button className='btn'>SEE LOCATION</button>
+            </Link>
           </div>
         </div>
       </div>

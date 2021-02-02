@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Country from '../Global/Country';
 import SweetAlert from 'react-bootstrap-sweetalert';
 
-function Contact({ name }) {
+function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const [formSubmitted, setFormSubmitted] = useState(false);
   return (
     <div className='container'>

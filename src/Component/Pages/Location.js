@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Touch from '../Global/Touch';
 import canada from '../../Assets/Location/image-map-canada.png';
 import australia from '../../Assets/Location/image-map-australia.png';
 import uk from '../../Assets/Location/image-map-united-kingdom.png';
 function Location() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <div className='container location'>

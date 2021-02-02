@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import phone from '../../Assets/image-hero-phone.png';
 import greaterthan from '../../Assets/icon-right-arrow.svg';
 import passionate from '../../Assets/illustration-passionate.svg';
@@ -7,6 +7,9 @@ import friendly from '../../Assets/illustration-friendly.svg';
 import Touch from '../Global/Touch';
 import { Link } from 'react-router-dom';
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className='container'>
       {/* SECTION ONE */}
