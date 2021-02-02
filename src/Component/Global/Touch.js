@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function Touch() {
   return (
     <div className='container'>
@@ -12,7 +12,9 @@ function Touch() {
           </p>
         </div>
         <div>
-          <button className='btn btn-light'>GET IN TOUCH</button>
+          <Link to='/contact'>
+            <button className='btn btn-light'>GET IN TOUCH</button>
+          </Link>
         </div>
       </div>
     </div>
