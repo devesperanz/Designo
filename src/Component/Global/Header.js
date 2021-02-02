@@ -27,14 +27,11 @@ function Header() {
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
-            <span className='navbar-toggler-icon'>
+            <span>
               <i className='fa fa-align-justify' aria-hidden='true'></i>
             </span>
           </button>
-          <div
-            className='collapse navbar-collapse '
-            id='navbarSupportedContent'
-          >
+          <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav ml-auto'>
               <li className='nav-item'>
                 <NavLink

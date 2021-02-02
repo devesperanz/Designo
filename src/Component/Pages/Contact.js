@@ -18,6 +18,7 @@ function Contact({ name }) {
         </div>
         <div className='contact-form col'>
           <form
+            autocomplete='off'
             className='contact-form-body'
             onSubmit={e => {
               e.preventDefault();
